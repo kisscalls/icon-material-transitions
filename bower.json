@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "icon-material-transitions": "kisscalls/icon-material-transitions#v0.3.1"
+    "icon-material-transitions": "kisscalls/icon-material-transitions#v0.3.1",
+    "iron-component-page": "polymerElements/iron-component-page#^1.1.6"
   }
 }
