@@ -2,6 +2,6 @@
   "name": "icon-transition#gh-pages",
   "private": true,
   "dependencies": {
-    "icon-transition": "PolymerLabs/icon-transition#master"
+    "icon-material-transitions": "kisscalls/icon-material-transitions#master"
   }
 }
