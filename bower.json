@@ -1,7 +1,28 @@
 {
-  "name": "icon-transition#gh-pages",
+  "name": "icon-material-transitions",
+  "homepage": "https://kisscalls.github.io/icon-material-transitions/",
+  "authors": [
+    "Nicolas Couture <nicolas@kisscalls.com"
+  ],
+  "description": "Material Design icon transitions animations for Polymer 2.",
+  "main": "bower.json",
+  "keywords": [
+    "polymer",
+    "icon",
+    "animations",
+    "material-design"
+  ],
+  "license": "Apache 2.0",
   "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "icon-material-transitions": "kisscalls/icon-material-transitions#master"
+    "icon-material-transition": "kisscalls/icon-material-transitions#master"
   }
 }
