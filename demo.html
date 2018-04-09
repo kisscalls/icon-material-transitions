@@ -18,9 +18,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
 
     <link rel="import" href="icon-material-transitions.html">
-    <link rel="import" href="../paper-toolbar/paper-toolbar.html">
+    <!-- <link rel="import" href="../paper-toolbar/paper-toolbar.html"> -->
     <link rel="import" href="../paper-button/paper-button.html">
-
+    <link rel="import" href="../app-toolbar/app-toolbar.html">
     <style>
         html, body {
             height: 100%;
@@ -64,6 +64,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
     <template>
         <div>
+	    <!-- orig -->
             <paper-toolbar>
                 <icon-material-transitions color="#fff" id="hero" icon="{{icon}}"></icon-material-transitions>
                 <span flex>Toolbar</span>
@@ -71,6 +72,25 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <paper-icon-button icon="add"></paper-icon-button>
             </paper-toolbar>
 
+	    <!-- documentation example -->
+	    <paper-toolbar>
+	      <paper-icon-button slot="top" icon="menu" on-tap="menuAction"></paper-icon-button>
+	      <div slot="top" class="title">Title</div>
+	      <paper-icon-button slot="top" icon="more-vert" on-tap="moreAction"></paper-icon-button>
+	    </paper-toolbar>
+
+	    <!-- app-layout -->
+	    <app-header reveals>
+	      <app-toolbar>
+                <icon-material-transitions color="#fff" id="hero" icon="{{icon}}"></icon-material-transitions>
+		<span flex>Toolbar</div>
+		<div main-title>My app</div>
+		<paper-icon-button icon="refresh"></paper-icon-button>
+		<paper-icon-button icon="add"></paper-icon-button>
+		<paper-progress value="10" indeterminate bottom-item></paper-progress>
+	      </app-toolbar>
+	    </app-header>
+	    
             <main>
                 <h2>Transition icon on click</h2>
                 <paper-button on-tap="triggerTransition" data-icon="menu">Switch to menu</paper-button>
@@ -95,7 +115,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <icon-material-transitions on-mouseover="pickIcon" icon="filter-list"></icon-material-transitions>
                 <icon-material-transitions on-mouseover="pickIcon" icon="sort"></icon-material-transitions>
 
-                <p>A prototype of Material Design <a href="http://www.google.com/design/spec/animation/delightful-details.html#delightful-details-delightful-details">delightful details</a>.</p>
+                <p>A prototype of Material Design <a href="https://www.google.com/design/spec/animation/delightful-details.html#delightful-details-delightful-details">delightful details</a>.</p>
             </main>
 
         </div>
