@@ -1,4 +1,4 @@
-icon-transition
+icon-material-transitions
 ==================
 
-See the [component page](http://polymerlabs.github.io/icon-transition) for more information.
+See the [component page](http://kisscalls.github.io/icon-material-transitions) for more information.

@@ -8,12 +8,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <!--
-`icon-transition` is an element allowing line-based SVG icons to seamlessly change from one to the other. It provides an implementation of Material Design's [delightful details](http://www.google.com/design/spec/animation/delightful-details.html) transitions.
+`icon-material-transitions` is an element allowing line-based SVG icons to seamlessly change from one to the other. It provides an implementation of Material Design's [delightful details](http://www.google.com/design/spec/animation/delightful-details.html) transitions.
 
 Example:
 
-    <icon-transition id="icon1" on-mouseover="pickIcon" icon="plus" ></icon-transition>
-    <icon-transition id="icon2" on-mouseover="pickIcon" icon="check" ></icon-transition>
+    <icon-material-transitions id="icon1" on-mouseover="pickIcon" icon="plus" ></icon-material-transitions>
+    <icon-material-transitions id="icon2" on-mouseover="pickIcon" icon="check" ></icon-material-transitions>
 
     <script>
       Polymer({
@@ -24,18 +24,18 @@ Example:
       });
     </script>
 
-In the above example, we have two `<icon-transition>` icons whose transitions are specified in CSS. Hovering over the icon triggers a transition from one icon to the next.
+In the above example, we have two `<icon-material-transitions>` icons whose transitions are specified in CSS. Hovering over the icon triggers a transition from one icon to the next.
 
 @group Polymer Labs Elements
-@element icon-transition
+@element icon-material-transitions
 @homepage github.io
 @contributors Tom Wiltzius, Addy Osmani, Nicholas Albion
 -->
 
 <link rel="import" href="bower_components/polymer/polymer.html">
 
-<dom-module id="icon-transition">
-    <link rel="stylesheet" href="icon-transition.css">
+<dom-module id="icon-material-transitions">
+    <link rel="stylesheet" href="icon-material-transitions.css">
     <template>
         <svg id="svg" viewbox="0 0 24 24" stroke$="{{color}}">
             <g transform="translate(12, 12)">
@@ -47,7 +47,7 @@ In the above example, we have two `<icon-transition>` icons whose transitions ar
     </template>
     <script>
         Polymer({
-            is: 'icon-transition',
+            is: 'icon-material-transitions',
 
             properties: {
                 /** Specify the stroke color of the current SVG icon */

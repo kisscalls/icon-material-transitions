@@ -9,7 +9,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
 <head>
-    <title>icon-transition</title>
+    <title>icon-material-transitions</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
@@ -17,7 +17,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 
-    <link rel="import" href="icon-transition.html">
+    <link rel="import" href="icon-material-transitions.html">
     <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
     <link rel="import" href="bower_components/paper-button/paper-button.html">
 
@@ -36,7 +36,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             padding: 20px;
         }
 
-        icon-transition {
+        icon-material-transitions {
             display: inline-block;
         }
 
@@ -63,7 +63,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <template is="dom-bind" id="app">
     <div>
         <paper-toolbar>
-            <icon-transition color="#fff" id="hero" icon="{{icon}}"></icon-transition>
+            <icon-material-transitions color="#fff" id="hero" icon="{{icon}}"></icon-material-transitions>
             <span flex>Toolbar</span>
             <paper-icon-button icon="refresh"></paper-icon-button>
             <paper-icon-button icon="add"></paper-icon-button>
@@ -77,21 +77,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <paper-button on-tap="triggerTransition" data-icon="close">Switch to close</paper-button>
 
             <h2>Transition icon on hover</h2>
-            <icon-transition on-mouseover="pickIcon" icon="add"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="remove"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="close"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="check"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="menu"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="more-horiz"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="more-vert"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="chevron-right"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="chevron-left"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="expand-less"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="expand-more"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="arrow-forward"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="arrow-back"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="filter-list"></icon-transition>
-            <icon-transition on-mouseover="pickIcon" icon="sort"></icon-transition>
+            <icon-material-transitions on-mouseover="pickIcon" icon="add"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="remove"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="close"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="check"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="menu"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="more-horiz"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="more-vert"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="chevron-right"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="chevron-left"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="expand-less"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="expand-more"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="arrow-forward"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="arrow-back"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="filter-list"></icon-material-transitions>
+            <icon-material-transitions on-mouseover="pickIcon" icon="sort"></icon-material-transitions>
 
             <p>A prototype of Material Design <a href="http://www.google.com/design/spec/animation/delightful-details.html#delightful-details-delightful-details">delightful details</a>.</p>
         </main>
