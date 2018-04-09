@@ -23,6 +23,6 @@
     "tests"
   ],
   "dependencies": {
-    "icon-material-transition": "kisscalls/icon-material-transitions#master"
+    "icon-material-transitions": "kisscalls/icon-material-transitions#v0.3.0"
   }
 }

@@ -1,5 +1,6 @@
 {
-  "name": "icon-material-transition",
+  "name": "icon-material-transitions",
+  "version": "0.3.0",
   "dependencies": {
     "polymer": "^1.0.5",
     "paper-toolbar": "PolymerElements/paper-toolbar#1.0.2",
@@ -9,14 +10,14 @@
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0"
   },
   "homepage": "https://github.com/kisscalls/icon-material-transitions",
-  "_release": "f3e80cbd56",
+  "_release": "0.3.0",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "f3e80cbd5627a4d5076ecc0162e584983167482e"
+    "type": "version",
+    "tag": "v0.3.0",
+    "commit": "dc48ddee5e192ceea1e6b3fe968f0a4b43edea80"
   },
   "_source": "https://github.com/kisscalls/icon-material-transitions.git",
-  "_target": "master",
+  "_target": "v0.3.0",
   "_originalSource": "kisscalls/icon-material-transitions",
   "_direct": true
 }
